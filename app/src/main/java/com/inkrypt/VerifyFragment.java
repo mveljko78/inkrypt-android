@@ -62,7 +62,7 @@ public class VerifyFragment extends Fragment {
             final Argon2KtResult hashResult = argon2Kt.hash(Argon2Mode.ARGON2_ID, String.valueOf(input).getBytes(), salt.getBytes(),4, 16, 1, 16, Argon2Version.V13);
             final String encodedOutput = hashResult.rawHashAsHexadecimal(true);
 
-            textViewVerifyHash.setText("Argon2 hash: " + encodedOutput);
+            textViewVerifyHash.setText("Argon2 hash: " + encodedOutput.substring(encodedOutput.length() - 6));
         } else {
             textViewVerifyHash.setText("Please enter a 6-digit number");
         }

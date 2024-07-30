@@ -10,20 +10,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="none"
+        android:layout_gravity="center"
         android:hint="Random Number"
+        android:textSize="32dp"
         android:enabled="false"/>
 
     <Button
         android:id="@+id/buttonInkrypt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="32dp"
         android:text="Inkrypt" />
 
     <TextView
         android:id="@+id/textViewHash"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Argon2 hash: "
+        android:textSize="32dp"
         android:layout_marginTop="16dp"/>
 
 </LinearLayout>
