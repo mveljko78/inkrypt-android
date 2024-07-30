@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
 
     <EditText
         android:id="@+id/editTextInput"
@@ -29,6 +30,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Argon2 hash: "
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="0dp"/>
 
 </LinearLayout>
