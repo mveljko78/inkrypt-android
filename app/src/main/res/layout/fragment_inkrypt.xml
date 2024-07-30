@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:hint="Random Number"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/buttonInkrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inkrypt" />
+
+    <TextView
+        android:id="@+id/textViewHash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Argon2 hash: "
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
